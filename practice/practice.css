@@ -1,0 +1,27 @@
+#hel {color:yellowgreen}
+
+.cls1 {color: tomato; background-color: violet;}
+.cls2 {color: yellow; background-color: teal;}
+
+.navbar {
+    background-color: thistle;
+    height: 5;
+    display: flex;
+    
+}
+
+.navbar > .items {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.navbar > .items > .item {
+    margin: 5px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.content-area > .items {
+    
+}
